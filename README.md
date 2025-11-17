@@ -26,10 +26,6 @@ This will generate a bundled file:
 
 dist/bundle.js
 
-Once built, you can copy and run only the dist/bundle.js with:
-
-node bundle.js
-
 **Run:**
 
 Start the service with:
@@ -37,6 +33,9 @@ Start the service with:
 npm start
 
 The service will start an HTTP server on port 3001.
+
+_Note: Once built, you can also just copy and run only the dist/bundle.js with:_
+_node bundle.js_
 
 **Run with Docker**
 
