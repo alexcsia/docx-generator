@@ -1,0 +1,23 @@
+{
+  "name": "cv-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "start": "node dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docx": "^9.5.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "esbuild": "^0.27.0",
+    "typescript": "^5.9.3"
+  }
+}
