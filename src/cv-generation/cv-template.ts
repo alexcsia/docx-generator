@@ -12,9 +12,6 @@ import {
 import { Packer } from "docx";
 import type { CVData } from "./types.js";
 
-import path from "path";
-import fs from "fs";
-
 import logo from "../assets/pmx_logo.png";
 
 if (typeof logo !== "string") throw new Error("Logo import failed");
@@ -23,6 +20,7 @@ const parts = logo.split(",");
 if (parts.length < 2) throw new Error("Invalid data URL");
 
 const buffer = Buffer.from(parts[1] as string, "base64");
+
 // ========================
 // ---- Main Generator ----
 // ========================
