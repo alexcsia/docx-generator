@@ -10,11 +10,11 @@ npm
 
 **Installation:**
 
-1.Clone the repository
+1. Clone the repository
 
-2.cd cv-template
+2. cd docx-generator
 
-3.npm install
+3. npm install
 
 **Build:**
 
