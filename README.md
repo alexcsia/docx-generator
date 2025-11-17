@@ -57,6 +57,9 @@ headers: {
 body: JSON.stringify(cvJSON),
 });
 
+const arrayBuffer = await response.arrayBuffer();
+const buffer = Buffer.from(arrayBuffer);
+
 **Accepted JSON schema:**
 
 {
