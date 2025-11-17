@@ -1,6 +1,6 @@
 import http, { IncomingMessage, ServerResponse } from "http";
 import { generateDocx } from "./cv-generation/cv-template.js";
-import type { CVData } from "./cv-generation/types.js";
+import type { CVData } from "./cv-generation/cv-template.js";
 
 async function getJsonBody(req: IncomingMessage): Promise<any> {
   return new Promise((resolve, reject) => {
