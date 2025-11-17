@@ -2,7 +2,7 @@
 
 **A minimal Node.js HTTP service that generates DOCX files from JSON CV data.**
 
-Requirements
+Requirements (to run without docker):
 
 Node.js v20+
 
